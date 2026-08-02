@@ -36,7 +36,5 @@ int main(void) {
         printf("%-10ld %-15.5f\n", trial_sizes[i], observed);
     }
 
-    printf("\nConclusion: As N increases, the observed probability for the fair coin converges to 0.5, and for the biased coin it converges to the chosen bias (%.2f), illustrating the Law of Large Numbers.\n", biased_p);
-
     return 0;
 }
